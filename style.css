@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 9;
+}
+
+/* flipkart img */
+.navbar img{
+    height: 50px;
+}
+
+/* Navbar- search bar */
+.navbar_search{
+    position: relative;
+}
+.navbar_search input{
+    width: 600px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(4, 123, 213, 0.1);
+    font-size: 17px;
+    padding-left: 45px;
+    outline: none;
+    cursor:pointer;
+}
+
+.navbar_search i{
+    font-size: 25px;
+    font-weight: 100;
+    position: absolute;
+    left: 2%;
+    top: 18%;
+    cursor: pointer;
+}
+
+/* search bar ends here */
+
+
+/* login btn start here */
+
+.navbar_login{
+    position: relative;
+}
+
+.navbar_login button{
+    height: 40px;
+    width: 110px;
+    border-radius: 10px;
+    font-size: 17px;
+    padding-left: 10px;
+    outline: none;
+    cursor:pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+
+}
+.navbar_signup{
+    width: 300px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -235px;
+    border-radius: 10px;
+    font-size: 17px;
+    text-decoration: none;
+    display: none;
+}
+
+.navbar_signup:hover{
+    display: block;
+}
+.navbar_signup:hover .navbar_login{
+    background-color: #0091ff;
+    color: #fff;
+}
+.navbar_newcustomer{
+    position: relative;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.navbar_newcustomer:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.navbar_newcustomer i{
+    position: absolute;
+    left: 15px;
+
+}
+#navbar_newcustomer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#navbar_newcustomer a{
+    font-weight: 600;
+    color: #047BD5;
+    padding-left: 40px;
+    padding-top: 10px;
+    
+}
+.navbar_signup a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar_login:hover .navbar_signup{
+    display: block;
+}
+
+.navbar_login button:hover {
+    background-color: #0091ff;
+    color: #fff;
+
+}
+
+
+.navbar_login #user_icon{
+    font-size: 25px;
+    font-weight: 100;
+    position: absolute;
+    left: 7%;
+    top: 18%;
+    cursor: pointer;
+}
+
+.navbar_login #down_icon{
+    font-size: 20px;
+    font-weight: 100;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    cursor: pointer;
+}
+
+/* Navbar- login button end here */
+
+
+/* Navbar- cart button starts here */
+
+.navbar_cart{
+    position:relative;
+}
+
+.navbar_cart button{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 0px;
+    outline: none;
+    cursor:pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.navbar_cart #cart_icon{
+    font-size: 22px;
+    font-weight: 100;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    cursor: pointer;
+}
+
+/* Navbar- cart ends here */
+
+/* Navbar- seller starts here */
+
+.navbar_seller{
+    position: relative;
+}
+
+.navbar_seller button{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 17px;
+    padding-left: 10px;
+    outline: none;
+    cursor:pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.navbar_seller #seller_icon{
+    font-size: 22px;
+    font-weight: 100;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    cursor: pointer;
+}
+
+/* Navbar- seller ends here */
+
+/* Navbar_ threee dots starts here */
+
+.navbar_threedots{
+    position: relative;
+}
+.navbar_threedots button{
+    min-height: 40px;
+    min-width: 40px;
+    background: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    outline: none;
+    border: none;
+}
+.navbar_threedots button:hover{
+    outline: auto;
+}
+
+
+.navbar_threedots i{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    cursor: pointer;
+}
+.navbar_threedots i:hover button{
+    outline: black;
+}
+
+
+                                        /* Navbar ENDS HERE*/
+
+                                        /* Categories STARTS HERE */
+
+.categories-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.categories img{
+    height: 100px;
+    width: 100px;
+}
+
+
+                                    /* categories ends here */
+
+                                    /* Offer slides STARTS HERE */
+
+.offer_slides{
+    display: flex;
+    height: 280px;
+    overflow:scroll;
+}
+                                    /* Offer slides ENDS HERER */
+
+                                    /* Best electronics STARTS HERE */
+
+.best_electronics{
+    background-color: #fff;
+    width: 80%;
+    overflow-y: hidden;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+
+}
+.best_electronics #best{
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.flex_electronics{
+    display: flex;
+}
+
+.electronics{
+    text-align: center;
+    position: relative;
+    min-height: 230px;
+    min-width: 210px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    margin-top: 40px;
+}
+.electronics div{
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+}
+.electronics .prices{
+    position: absolute;
+    bottom: 0px;
+    font-weight: 600;
+    left: 30px;
+}
+.electronics img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.electronics img:hover{
+    height: 205px;
+    width: 205px;
+}
+
+                                /* Best of electronics ENDS HERE */
+
+                                /* Ad IMG1 STARTS HERE */
+
+#ad_img1{
+    height: 350px;
+    width: 200px;
+}
+
+                                /* Ad IMG1 ENDS HERE */
+
+                                /* Beauty, Toys and More STARTS HERE */
+
+.Beauty_and_more{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.Beauty_and_more #beauty{
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.flex_beauty_and_toys{
+    display: flex;
+    margin-top: 40px;
+    overflow-y: hidden;
+    overflow: scroll;
+}
+
+.flex_beauty_and_toys .toys{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.flex_beauty_and_toys .toys img{
+        height: 180px;
+        width: 180px;
+        position: absolute;
+}
+.flex_beauty_and_toys .toys img:hover {
+    height: 185px;
+    width: 185px;
+}
+.toys div{
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+.toys .prices1{
+    bottom: 0px;
+    left: 40px;
+    font-weight: 600;
+}
+                                /* Beauty, Toys and More ENDS HERE */
+
+                                /* Footer STARTS HERE */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-size: 40px;
+}
+                                /* Footer ENDS HERE */
